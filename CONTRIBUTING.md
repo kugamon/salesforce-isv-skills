@@ -1,4 +1,4 @@
-# Contributing to kugamon/skills
+# Contributing to kugamon/salesforce-isv-skills
 
 Thank you for considering a contribution. This repo is a home for reusable, well-documented agent skills focused on (but not limited to) the Salesforce ecosystem.
 

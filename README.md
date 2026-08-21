@@ -22,14 +22,14 @@ Get all skills at once and receive updates automatically as new skills are added
 From Claude Code or Claude Desktop:
 
 ```
-/plugin marketplace add kugamon/skills
-/plugin install kugamon-skills@kugamon
+/plugin marketplace add kugamon/salesforce-isv-skills
+/plugin install salesforce-isv@salesforce-isv-marketplace
 ```
 
 When new skills or updates ship, run:
 
 ```
-/plugin update kugamon-skills
+/plugin update salesforce-isv
 ```
 
 ### Option 2: Copy an individual skill
@@ -55,7 +55,7 @@ Some skills have additional dependencies — see each skill's `README.md` for re
 .claude-plugin/
   marketplace.json              <-- Kugamon marketplace definition
 plugins/
-  kugamon-skills/
+  salesforce-isv/
     .claude-plugin/
       plugin.json               <-- plugin manifest (for /plugin install)
     LICENSE                     <-- MIT (plugin-local copy, used after install)
