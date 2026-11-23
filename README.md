@@ -83,7 +83,11 @@ See each skill's `CHANGELOG.md` for skill-level history, and the [GitHub Release
 
 ## Contributing
 
-Pull requests welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines — including the SKILL.md frontmatter contract, testing conventions, and how to propose a new skill.
+This collection is maintained by Kugamon. Outside pull requests aren't accepted, but issues are welcome: if a skill gives wrong results, or you'd like a new one, open an [issue](https://github.com/kugamon/salesforce-isv-skills/issues) with the skill and what you saw, or what the new skill should do.
+
+[CONTRIBUTING.md](CONTRIBUTING.md) describes how the skills are built.
+
+The MIT license lets you fork and adapt it for your own use.
 
 ## License
 

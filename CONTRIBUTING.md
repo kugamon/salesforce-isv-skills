@@ -1,12 +1,17 @@
 # Contributing to kugamon/salesforce-isv-skills
 
-Thank you for considering a contribution. This repo is a home for reusable, well-documented agent skills focused on (but not limited to) the Salesforce ecosystem.
+This collection is maintained by Kugamon. Outside pull requests aren't accepted, but issues are welcome.
 
-## How to Propose a New Skill
+## Reporting a problem or suggesting a skill
 
-1. **Open an issue first** describing the skill, the problem it solves, the inputs it needs, and the outputs it produces. This lets us discuss scope before you invest time.
-2. **Wait for feedback** — we'll label the issue `accepted` once we agree it's a fit.
-3. **Fork and submit a pull request** with the new skill folder.
+Open an [issue](https://github.com/kugamon/salesforce-isv-skills/issues):
+
+- **A skill gives wrong results** — name the skill, what you gave it and what you saw.
+- **An idea for a new skill** — the problem it solves, the inputs it needs and the outputs it produces.
+
+Never include secrets, customer data or PII.
+
+The MIT license lets you fork and adapt the skills for your own use. The rest of this file describes how the skills here are built, which also helps if you're adapting one.
 
 ## Skill Folder Structure
 
@@ -45,17 +50,17 @@ description: "A single paragraph describing what this skill does, when to use it
 - **Keep examples real.** Sample outputs should reflect what the skill actually produces.
 - **Use Markdown tables** for pattern/severity reference lists — they render well in SKILL.md and are easy to scan.
 
-## Testing Your Skill
+## Testing a Skill
 
-Before opening a PR:
+Before releasing a change:
 
-1. Copy your skill folder into `~/.claude/skills/` locally.
+1. Copy the skill folder into `~/.claude/skills/` locally.
 2. Restart your agent client.
 3. Run the skill end-to-end against a realistic input.
 4. Verify the output matches what your README claims.
 5. Fix any issues and iterate.
 
-## Pull Request Checklist
+## Maintainer Checklist
 
 - [ ] Folder name and `name:` frontmatter match.
 - [ ] `README.md` explains requirements, usage, and example output.
@@ -66,7 +71,7 @@ Before opening a PR:
 
 ## Licensing
 
-All contributions are licensed under MIT (see [LICENSE](LICENSE) at the repo root). By opening a pull request, you agree your contribution is licensed the same way.
+Everything in this repo is licensed under MIT (see [LICENSE](LICENSE) at the repo root).
 
 ## Code of Conduct
 
